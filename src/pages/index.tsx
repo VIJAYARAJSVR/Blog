@@ -1,6 +1,7 @@
 import * as React from "react"
 import type {HeadFC, PageProps} from "gatsby"
 import Layout from "../components/Layout";
+import Articlee from "../templates/article";
 // import "../styles/global.css"
 
 import { graphql } from "gatsby"
@@ -13,7 +14,8 @@ const IndexPage: React.FC<PageProps> = () => {
         <Layout>
             <h1 className="text-center font-bold mt-5 bg-amber-600">
                 This is blog website
-            </h1>;
+            </h1>
+            {/*<Articlee/>*/}
         </Layout>
     )
 }
